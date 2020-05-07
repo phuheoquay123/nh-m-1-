@@ -2,6 +2,7 @@ package com.baithicuoiki.sinhvien;
 import java.util.Scanner;
 public class Tinhdiemcuoiki {
 	public static void tinhdiemcuoiki() {
+            try {
 	    double B1, B2, C1, C2, D1, D2, E1, E2, F1, F2;
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("-------NHAP DIEM-------");
@@ -104,6 +105,10 @@ public class Tinhdiemcuoiki {
 		else {
 			System.out.println("+Diem Cuoi Ki= " + (double)Math.round(DiemCuoiKi*10)/10);
 			System.out.println("-> Xep loai: yeu");
+		}
+	        }
+		catch(Exception e){
+			System.out.println(e);
 		}
 		
 	}
