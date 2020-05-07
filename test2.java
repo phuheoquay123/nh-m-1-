@@ -11,33 +11,33 @@ public class test2 extends test {
 		DecimalFormat decimalFormat = new DecimalFormat("#.#");
 		System.out.println("mon B:");
 		System.out.print("diem B1: ");
-		B1=scanner.nextline();
+		B1=scanner.nextLine();
 		System.out.print("diem B2: ");
-		B2=scanner.nextline();
+		B2=scanner.nextLine();
 		
 		System.out.println("mon C:");
 		System.out.print("diem C1: ");
-		C1=scanner.nextDouble();
+		C1=scanner.nextLine();
 		System.out.print("diem C2: ");
-		C2=scanner.nextDouble();
+		C2=scanner.nextLine();
 		
 		System.out.println("mon D:");
 		System.out.print("diem D1: ");
-		D1=scanner.nextDouble();
+		D1=scanner.nextLine();
 		System.out.print("diem D2: ");
-		D2=scanner.nextDouble();
+		D2=scanner.nextLine();
 		
 		System.out.println("mon E:");
 		System.out.print("diem E1: ");
-		E1=scanner.nextDouble();
+		E1=scanner.nextLine();
 		System.out.print("diem E2: ");
-		E2=scanner.nextDouble();
+		E2=scanner.nextLine();
 		
 		System.out.println("mon F:");
 		System.out.print("diem F1: ");
-		F1=scanner.nextDouble();
+		F1=scanner.nextLine();
 		System.out.print("diem F2: ");
-		F2=scanner.nextDouble();
+		F2=scanner.nextLine();
 		
 		System.out.println("KET QUA TUNG MON: ");
 		
