@@ -6,14 +6,14 @@ import java.util.Scanner;
 public class test2 extends test {
 	public static void main(String[] args) {
 		 // TODO Auto-generated method stub
-		double B1, B2, C1, C2, D1, D2, E1, E2, F1, F2;
+		Integer B1, B2, C1, C2, D1, D2, E1, E2, F1, F2;
 		Scanner scanner = new Scanner(System.in);
 		DecimalFormat decimalFormat = new DecimalFormat("#.#");
 		System.out.println("mon B:");
 		System.out.print("diem B1: ");
-		B1=scanner.nextDouble();
+		B1=scanner.nextline();
 		System.out.print("diem B2: ");
-		B2=scanner.nextDouble();
+		B2=scanner.nextline();
 		
 		System.out.println("mon C:");
 		System.out.print("diem C1: ");
