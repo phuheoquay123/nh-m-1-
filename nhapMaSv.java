@@ -11,6 +11,15 @@ public class nhapMaSv {
 	        }
 	       
 }
+	public static boolean nhaphovaten(String fullName) {
+		String pattern="[a-z A-Z]+";
+		if (fullName.matches(pattern)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 }
 
    
