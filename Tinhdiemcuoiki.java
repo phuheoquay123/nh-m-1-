@@ -88,7 +88,7 @@ public class Tinhdiemcuoiki {
 	    }
 		
 		double DiemCuoiKi= (((DiemMonB*2)+(DiemMonC*2)+(DiemMonD*2)+(DiemMonE*2)+(DiemMonF*2))/10);
-		System.out.println("-------KET QUA CUOI KI-------:");
+		System.out.println("-------KET QUA CUOI KI-------");
 		if(DiemCuoiKi>=9) {
 			System.out.println("+Diem Cuoi Ki= " + (double)Math.round(DiemCuoiKi*10)/10);
 			System.out.println("-> Xep loai: gioi");
