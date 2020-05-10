@@ -28,7 +28,7 @@ public class nhapMaSv {
 		}
 	}
 	public static boolean nhapthangsinh(String thang) {
-		String pattern="[0-9]{1}";
+		String pattern="[0-9]{1,2}";
 		if (thang.matches(pattern)) {
 			return true;
 		}
