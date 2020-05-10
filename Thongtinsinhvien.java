@@ -16,13 +16,13 @@ public class Thongtinsinhvien {
 		else {
 			System.out.print("Moi nhap ngay sinh: ");
             ngay=scanner.nextLine();
-			if(nhapMaSv.nhapngaysinh(ngay)==false) {
+			if(nhapMaSv.nhapngaysinh(ngay)==false || (Integer.parseInt(ngay)<1 || Integer.parseInt(ngay)>31)) {
 				System.out.println("ngay sinh khong hop le, vui long kiem tra lai");
 			}
 			else { 
 				System.out.print("Moi nhap thang sinh: ");
 				thang=scanner.nextLine();
-				if(nhapMaSv.nhapthangsinh(thang)==false) {
+				if(nhapMaSv.nhapthangsinh(thang)==false || (Integer.parseInt(thang)<1 || Integer.parseInt(thang)>12)) {
 					System.out.println("thang sinh khong hop le, vui long kiem tra lai");
 				}
 				else { 
