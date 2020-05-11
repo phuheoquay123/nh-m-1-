@@ -112,23 +112,23 @@ public class Tinhdiemcuoiki {
 		                }
 		            }
 		            catch (Exception e) {
-		            	System.out.println(e);
+		            	    System.out.println("vui long nhap so!" + "(loi:" + e + ")");
 		            }
 		        }
 		        catch (Exception e) {
-		        	System.out.println(e);
+		        	System.out.println("vui long nhap so!" + "(loi:" + e + ")");
 		        }
 		    }
 		    catch (Exception e) {
-		    	System.out.println(e);
+		    	    System.out.println("vui long nhap so!" + "(loi:" + e + ")");
 		    }
 		}
 		catch (Exception e) {
-			System.out.println(e);
+			System.out.println("vui long nhap so!" + "(loi:" + e + ")");
 		}
 		}
 		catch (Exception e) {
-			System.out.println(e);
+			System.out.println("vui long nhap so!" + "(loi:" + e + ")");
 		}
 	}
 }
